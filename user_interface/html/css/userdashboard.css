@@ -1,0 +1,105 @@
+body{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-family:Arial, Helvetica, sans-serif;
+  color:rgb(75, 74, 74);
+
+}
+.top_bar{
+display:flex;
+flex-direction: row;
+margin-top:0px;
+align-items: center;
+justify-content: center;
+height:100px;
+
+}
+
+.top_bar_2{
+  display:flex;
+  flex-direction: row;
+  margin-top:0px;
+  gap:20px;
+  align-items:start;
+  justify-content: start;
+  background-color: #83ebc5;
+}
+
+
+.bot_bar{
+  display:flex;
+  flex-direction: row;
+  margin-top:0px;
+  justify-content: center;
+  align-items:center;
+  background-image: url("../images/undraw_travelers_kud9.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  height:500px;
+
+}
+.logo{
+  width:60px;
+  margin-right:10px;
+}
+
+.profile{
+  margin-left:300px;
+  border-radius:200px;
+  border:1px solid grey;
+  background-color: aliceblue;
+
+}
+.profile_pic{
+  width:40px;
+ 
+}
+
+.searchicon{
+  width:50px;
+}
+.title, .title_2{
+ font-size:50px;
+ font-weight:bold;
+ margin-left:5px;
+}
+.title_2{
+  font-size:20px;
+}
+.search_bar{
+  margin-right:0px;
+  margin-left:20px;
+  padding:16px 10px;
+  font-size:20px;
+  border:none;
+  width:500px;
+  background-color:rgb(219, 218, 218);
+  
+}
+.search_bar:focus{
+  outline:1px solid blue;
+  height:54px;
+}
+.searchicon{
+  margin-left:0px;
+}
+.search_btn{
+  background-color:rgb(219, 218, 218);
+  border:none;
+  margin-left:1px;
+  cursor:pointer;
+  height:54px;
+}
+.search_btn:hover{
+background-color:grey;
+}
+
+.date{
+  height: 53px;
+  font-size:20px;
+  background-color:rgb(219, 218, 218);
+  border:none;
+  margin-left:1px;
+  cursor:pointer;
+}
